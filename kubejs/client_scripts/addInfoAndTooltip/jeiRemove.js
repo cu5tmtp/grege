@@ -1637,7 +1637,6 @@ let emiBannedItems = [
     "item:mae2:64x_crafting_accelerator",
     "item:mae2:256x_crafting_accelerator",
     "item:mae2:cloud_chamber",
-    "item:mae2:faulty_card{}",
     "item:ad_astra_giselle_addon:lander_icon",
     "item:ad_astra_giselle_addon:automation_nasa_workbench",
     "item:ad_astra_giselle_addon:gravity_normalizer",

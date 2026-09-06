@@ -513,7 +513,8 @@ ItemEvents.tooltip((event) => {
             'gtceu:sednasampler',
             'gtceu:mobpurgatory',
             'gtceu:oreprocessor',
-            'gtceu:tartarustower'
+            'gtceu:tartarustower',
+            'gtceu:magicalgarden'
         ],
         (item, advanced, text) => {
             text.add(1, Text.gray('Ability: Perfect Overclock.'));

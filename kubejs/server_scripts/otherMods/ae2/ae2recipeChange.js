@@ -347,4 +347,15 @@ ServerEvents.recipes((event) => {
     })
     .id('rgfverfsgvrrfdg');
 
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            'ae2:memory_card'
+        )
+        .itemOutputs(
+            'mae2:faulty_card'
+        )
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(200)
+        .circuit(24)
+
 });

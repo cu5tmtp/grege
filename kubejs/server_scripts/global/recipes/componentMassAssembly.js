@@ -82,7 +82,7 @@ ServerEvents.recipes((event) => {
         { output: '32x gtceu:smd_inductor', inputs: ['gtceu:nickel_zinc_ferrite_ring', '2x gtceu:fine_tantalum_wire'], fluid: 'gtceu:polyethylene 100', circuit: 1, duration: 20},
         { 
             output: ['36x gtceu:smd_transistor', '36x gtceu:smd_resistor', '30x gtceu:smd_capacitor', '36x gtceu:smd_diode', '36x gtceu:smd_inductor'], 
-            inputs: ['gtceu:gallium_foil', '12x gtceu:fine_tantalum_wire', 'gtceu:carbon_dust', 'gtceu:tantalum_foil', '2x gtceu:polyvinyl_chloride_foil', 'gtceu:gallium_arsenide_dust', 'gtceu:nickel_zinc_ferrite_ring'], 
+            inputs: ['gtceu:gallium_foil', '8x gtceu:fine_tantalum_wire', '2x gtceu:fine_titanium_wire', 'gtceu:carbon_dust', 'gtceu:tantalum_foil', '2x gtceu:polyvinyl_chloride_foil', 'gtceu:gallium_arsenide_dust', 'gtceu:nickel_zinc_ferrite_ring'], 
             fluid: ['gtceu:polyethylene 450'], 
             circuit: 24,
             duration: 100

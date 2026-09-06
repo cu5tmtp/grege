@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.giantreactionchamber()
         .itemInputs(
-            '32x ae2:certus_quartz_crystal'
+            '64x ae2:certus_quartz_crystal'
         )
         .inputFluids(
             'minecraft:water 1000'

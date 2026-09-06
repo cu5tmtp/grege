@@ -59,6 +59,10 @@ ServerEvents.recipes((event) => {
         )
     })
 
+    event.remove({ id: 'botania:mana_infusion/coal_dupe'})
+    event.remove({ id: 'botania:mana_infusion/quartz_dupe'})
+    event.remove({ id: 'botania:mana_infusion/redstone_dupe'})
+
     event.remove({ id: 'mythicbotany:kvasir_mead'})
 
     event.recipes.botania.mana_infusion('kubejs:dewvial', 'botania:vial', 1000)
@@ -67,4 +71,5 @@ ServerEvents.recipes((event) => {
     event.recipes.botania.mana_infusion('minecraft:red_mushroom', 'botania:red_petal', 100)
     event.recipes.botania.mana_infusion('2x kubejs:vanaheimingot', 'kubejs:vanaheimingot', 10000, 'botania:conjuration_catalyst')
     event.recipes.botania.mana_infusion('2x kubejs:solidacidinfusedlava', 'kubejs:solidacidinfusedlava', 1000, 'botania:conjuration_catalyst')
+    
 });

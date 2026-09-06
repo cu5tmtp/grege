@@ -19,9 +19,9 @@ ServerEvents.recipes((event) => {
             'kubejs:solidacidinfusedlava'
         )
         .outputFluids(
-            'kubejs:acidinfusedlava 1000'
+            'kubejs:acidinfusedlava 2500'
         )
-        .duration(100)
+        .duration(50)
         .EUt(1680)
 
 
